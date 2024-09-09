@@ -94,3 +94,26 @@ $= {(\sum_{i=0}^{n}{a_i})}^2 - \sum_{j=0}^{n}{(a_j^2)}$
 22. $(2^{32} - 1)$ is ```UINT_MAX``` not ```INT_MAX```
 
 23. PLEASE, use ```long long``` if you are not sure, memory is not paid :/
+
+24. - you can use **```std::any_of(InputIt first, InputIt last, UnaryPred p)```** to
+    to iterate effeciently over some iterable object (vector, list, array, etc.)
+    it will return ```true``` if any value satisfy the Unary Predicate ```p```.
+    - ***Unary Predicate:*** a lambda function that takes **one** argument and returns a bool value.
+      - Example:
+
+        ```C++
+        auto p = [&](int x){return x == 5;} 
+        ```
+
+    - Example of ```find_of```:
+
+        ```C++
+        auto cycle_detected = [&](pii& p){
+            auto [x, y] = p;
+            return valid(i, j) && dfs(i + x, j + y);
+        };
+
+        // Cycle Detection
+        vector<pii> directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+        return any_of(all(directions), cycle_detected);
+        ```
