@@ -51,3 +51,5 @@ int dcmp(double a, double b, double EBS = 1e-10){
 - Average of averages can be equal to total population average iff sub groups are from same size, otherwise it will not be the same.
 	- Associated Problem: [CF2078-D2-A](https://codeforces.com/contest/2078/problem/A)
 
+- $\sum_1^n(K^3) = (\sum_1^n(K))^2$
+

@@ -32,3 +32,4 @@
        - Almost as `approach 1` but with more space overhead.
        - Not logical to use, if you need the input as a vector, use `approach 1`, and if you need the input as a set use `approach 2`
 
+- When error is wanted to be less than $x$, use `printf` to control count of numbers after decimal point.  `printf("%.10f", NUMBER);`
