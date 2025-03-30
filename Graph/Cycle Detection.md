@@ -1,10 +1,12 @@
-- An efficient way for Cycle Detection using DFS
+- An efficient way for Cycle Detection using  (revise lambda expressions)
 ```C++
 // On Matrix
-bool dfs(int r, int c){
+bool detect_cycle(int r, int c){
+	if(!valid(r, c)) return false;
+
 	auto cycle_detected = [&](pii& p){
-	    auto [x, y] = p;
-	    return valid(i, j) && dfs(i + x, j + y);
+	    auto [r_change, c_change] = p;
+	    return detect_cycle(r + r_change, c + c_change);
 	};
 	
 	// Cycle Detection
