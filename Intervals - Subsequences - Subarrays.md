@@ -1,6 +1,6 @@
-- The best way to calculate overlap size between 2 intervals $(l1,\ r1)$ and $(l2,\ r2)$: 
-    $L = max(l1,\ l2)$
-    $R = min(r1,\ r2)$
+- The best way to calculate overlap size between 2 intervals $(l_1,\ r_1)$ and $(l_2,\ r_2)$: 
+    $L = max(l_1,\ l_2)$
+    $R = min(r_1,\ r_2)$
     if ($R\ <\ L$)
 	    return $0$; // No overlap
     else
