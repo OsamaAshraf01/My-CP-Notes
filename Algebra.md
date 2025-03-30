@@ -1,2 +1,2 @@
-- **Nice Idea:** you can avaluate polynomials like (a * x^n + b * x^(n - 1) + c * x ^ (n - 1) + .... + e * x ^ 0) using bases conversion rule (multiply by x, add coefficient, multply, add, ...)
+- **Nice Idea:** you can evaluate polynomials like $(a_1 * x^n + a_2 * x^{n - 1} + a_3 * x ^{n - 2} + .... + a_{n + 1} * x ^ 0)$ using bases conversion rule (multiply by x, add coefficient, multiply, add, ...)
 
