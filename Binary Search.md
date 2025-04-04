@@ -21,3 +21,4 @@
     using `upper_bound`, we will check index 3 and 2 
     (for more clarification, revise previous point.
 
+- When see pattern in array like 0, 0, 0, 1, 1, 1, 1 or 1, 1, 0, 0, 0 -(i.e. you need to find the last 0/first 0/last 1/first 1) -> think in binary search with a check function.
