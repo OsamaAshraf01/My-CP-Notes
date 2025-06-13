@@ -1,0 +1,3 @@
+- use `endl` to flush output instead of `\n` followed by `fflush(stdout)`
+- use `assert` to handle judge's response for invalid case like -1. e.g. `assert(response != -1)`
+- don't use `cout.tie(0)`, but you can use `cin.tie(0)` and `ios_base::sync_with_stdio(0)` to improve speed

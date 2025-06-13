@@ -1,0 +1,2 @@
+#Graph
+In multi-source BFS, you can initialize the queue with all starting nodes (sources) before beginning the traversal. The algorithm handles multiple sources seamlessly, processing them in the correct order without any issues.

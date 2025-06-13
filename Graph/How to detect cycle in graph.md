@@ -1,3 +1,4 @@
+#Graph
 - An efficient way for Cycle Detection using  (revise lambda expressions)
 ```C++
 // On Matrix
@@ -28,6 +29,6 @@ bool dfs(int node){
 }
 ```
 
-- Tortoise-Hare Algorithm
+- [[Tortoise-Hare Algorithm]]
 
 - 

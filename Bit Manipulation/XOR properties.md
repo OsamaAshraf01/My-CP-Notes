@@ -1,3 +1,4 @@
+#bit_manipulation
 1. $x ⊕ y ⊕ y = x$
 2. $x ⊕ y = x + y + 2(x\ \&\ y)$
 3. if $x ⊕ y = z$, then $x ⊕ z = y$ 

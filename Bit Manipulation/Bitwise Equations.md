@@ -1,3 +1,4 @@
+#bit_manipulation
 Useful Blog: [Some equations using bitwise operators](https://codeforces.com/blog/entry/94470)
 
 ## Addition
