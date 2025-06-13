@@ -40,7 +40,7 @@ This repository contains my personal notes on various topics in competitive prog
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions for improvements or additional topics, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you have suggestions for improvements additional topics, or corrections, feel free to open an issue or submit a pull request.
 
 ## 📝 License
 
