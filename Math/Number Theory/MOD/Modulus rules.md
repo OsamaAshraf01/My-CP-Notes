@@ -1,6 +1,6 @@
 #number_theory
 - Modulus with subtraction:$$a - b\ (mod\ M) = ((a-b) \% M + M) \% M$$
-	- Why? revise [[Modulo Handling for Negative Numbers]]
+	- Why? revise [[Modulus Handling for Negative Numbers]]
 	- this is because $a-b$ can be negative. 
 	- Generally, adding or subtracting M from number does not affect the result of modulus.
 

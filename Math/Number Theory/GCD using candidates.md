@@ -16,7 +16,7 @@ recall that essence of GCD: finding the greatest number that divides both x and 
 
 ---
 
-this note is related to [[Modular Arithmetic]], [[GCD]]
+this note is related to [[Modulus rules]], [[GCD]]
 ### Related Problems
 
 - [CODECHEF GCDMOD](https://www.codechef.com/problems/GCDMOD)

@@ -1,4 +1,4 @@
-#permutations #number_theory
+#number_theory #permutations
 Any permutation is a group of cycles if it represents edges in some graph in the format `(i, p[i])` or `(p[i], i)` 
 - Related Problem: [CF2086-D2-C](https://codeforces.com/contest/2086/problem/C)
 - Examples:
