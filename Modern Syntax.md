@@ -14,3 +14,15 @@ auto p = [&](int x){return x == 5;}
 
 - To get the max element in `set` or `multiset`, use `*s.rbegin()`
 
+- to loop over set while you are erasing from it: 
+```C++
+set<int> s; 
+for(auto it = s.begin(); it != s.end(); ) { 
+	if(some_condition) { 
+		ans[*it] = i + 1; c++; 
+		it = s.erase(it); // erase(iterator) returns next valid iterator
+	} else { 
+		it++; 
+	} 
+}
+```
