@@ -1,4 +1,4 @@
-#Graph  
+#Graph #Trees 
 When working with tree problems, always check whether the edges are directed or undirected:  
   
 - If edges are given in a directed format (e.g., `{from, to}`), you can treat the tree as a directed graph. In this case, a **leaf node** is any node where `adjList[node]` is empty.  
