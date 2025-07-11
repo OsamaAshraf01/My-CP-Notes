@@ -1,3 +1,4 @@
+#CPP
 - To loop over a map to extract keys or values:
    `for(auto const &[k, v] : mp)`
 
@@ -25,4 +26,18 @@ for(auto it = s.begin(); it != s.end(); ) {
 		it++; 
 	} 
 }
+```
+
+- To print an integer as hexadecimal, you can use:
+```C++
+cout << hex << your_number;
+```
+
+- you can initialize struct/class's members using the following way:
+```C++
+struct line{  
+    int a, b, c;  
+};
+
+line l{.a = 1, .b = 1, .c = 3};
 ```
